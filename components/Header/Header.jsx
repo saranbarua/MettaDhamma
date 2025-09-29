@@ -13,22 +13,15 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-primary">
-        <div className="lg:w-[75%] mx-auto  flex items-center justify-between">
-          <img src={images.banner} className="w-full h-auto mx-auto" />
-        </div>
-      </div>
       <header className="bg-primary-light shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <Link to={"/"}>
-            <h1 className="text-white font-medium">
-              চট্টগ্রাম সমিতি পূর্বাঞ্চল সৌদি আরব
-            </h1>
+            <img src={images.logo} className="w-14 mx-auto" />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-6 text-lg">
             <Link
               to={"/events"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"

@@ -5,12 +5,7 @@ import "swiper/css/autoplay";
 import images from "../../assets/image";
 import { effectInit } from "swiper/effect-utils";
 
-const sliderImages = [
-  images.slider1,
-  images.slider2,
-  images.slider3,
-  images.slider4,
-];
+const sliderImages = [images.slider1, images.slider2, images.slider3];
 
 export default function Slidder() {
   return (

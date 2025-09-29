@@ -5,8 +5,9 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-2">About Us</h2>
           <p className="text-sm">
-            আঁরা বেয়াগ্গুন চাটগাঁইয়া ভাই ভাই , মিলে মিশে থাকব মোরা কোন ভেদাভেদ
-            নাই
+            🤝 আমাদের সাথে থাকুন আমাদের এই যাত্রা শুধু ধর্মচর্চা নয় – এটি
+            অন্তরের আলোকিত পথের খোঁজ। আপনি যদি শান্তি, সমবেদনা ও প্রজ্ঞার
+            অন্বেষক হয়ে থাকেন, তবে আপনি ঠিক জায়গাতেই এসেছেন।
           </p>
         </div>
 
@@ -37,19 +38,19 @@ export default function Footer() {
             <li>
               <span>Email: </span>
               <a href="mailto:info@example.com" className="hover:underline">
-                info@ctgsomitidmm.com
+                mettadhamma969@gmail.com
               </a>
             </li>
             <li>
               <span>Phone: </span>
               <a href="tel:+966 53 857 8777" className="hover:underline">
-                +966 53 857 8777
+                +880-1830113623
               </a>
             </li>
             <li>
-              <span className="font-semibold">Address: </span>Al Hammam
-              Commercial Center. (2nd Floor) 1918 King Fahad Bin Abdul Aziz
-              Road, Gurnatha Dist. Dammam - 32243, Kingdom of Saudi Arabia
+              <span className="font-semibold">Address: </span>বায়েজিদ থানা
+              কেন্দ্রীয় শান্তিকুঞ্জ বৌদ্ধ বিহার, মোহাম্মদ নগর, বায়েজিদ থানা
+              সংলগ্ন, চট্টগ্রাম
             </li>
           </ul>
         </div>
@@ -58,7 +59,7 @@ export default function Footer() {
           <h2 className="text-xl font-bold mb-2">Follow Us</h2>
           <div className="flex space-x-4">
             <a
-              href="https://www.facebook.com/profile.php?id=100089809267815"
+              href="https://www.facebook.com/profile.php?id=61559727202119"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400"
@@ -76,7 +77,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-6 text-center text-sm text-gray-400">
-        © 2025 চট্টগ্রাম সমিতি পূর্বাঞ্চল সৌদি আরব. All rights reserved.
+        © 2025 Metta Dhamma. All rights reserved.
       </div>
       <div className=" text-center text-sm text-gray-400">
         Developed by{" "}

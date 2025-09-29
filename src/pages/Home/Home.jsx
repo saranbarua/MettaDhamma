@@ -7,37 +7,34 @@ export default function Home() {
     <div>
       <Slidder />
       <div className="container mx-auto p-6">
-        <h1 className="text-3xl font-bold mb-4">
-          Welcome To চট্টগ্রাম সমিতি পূর্বাঞ্চল সৌদি আরব
+        <h1 className="text-3xl font-bold text-green-700 mb-4">
+          Welcome To Metta Dhamma
         </h1>
         <div className=" mx-auto">
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Greater Chittagong Association, Dammam, Saudi Arabia, established on
-            <span className="font-medium"> 26th November 2022</span>, is a
-            nonpolitical and immigrant-friendly sociable association dedicated
-            to fostering a sense of community among the people of Chittagong
-            living abroad.
+            আমাদের চ্যানেল <span className="font-bold"> মেত্তা ধাম্মা</span>{" "}
+            নিবেদিত বৌদ্ধ ধর্মীয় প্ল্যাটফর্ম, যেখানে শান্তি, প্রজ্ঞা ও ধর্মীয়
+            জ্ঞান ছড়িয়ে দেওয়ার লক্ষ্যে আমরা কাজ করে যাচ্ছি। ত্রিরত্ন– বুদ্ধ,
+            ধর্ম ও সংঘ – এই তিন আশ্রয়ের আলোকে আমাদের চ্যানেল পরিচালিত হয়। আমরা
+            বিশ্বাস করি, বৌদ্ধ শিক্ষা শুধু ধর্ম নয়, এটি একটি জীবনদর্শন।
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Historic Chittagong, located in the southeastern part of Bangladesh,
-            has been a land frequented by saints and dervishes since time
-            immemorial. Its geographical location and stunning natural beauty
-            make it truly unique. From picturesque hilltops and fertile plains
-            adorned with luxuriant crops to shimmering lakes and rivers winding
-            through the landscape, Chittagong's charm is unmatched.
+          <p className="my-2 text-lg text-gray-700 leading-relaxed">
+            🎯আমাদের উদ্দেশ্য বুদ্ধের মহাজ্ঞান ও শিক্ষাকে সবার মাঝে ছড়িয়ে দেওয়া
+            তরুণ প্রজন্মকে ধর্মীয় চেতনায় অনুপ্রাণিত করা অনলাইন মাধ্যমে সহজবোধ্য
+            বুদ্ধবাণী ও ধর্মদেশনা প্রচার ধ্যান, সৎচিন্তা ও করুণা চর্চার জন্য
+            মাধ্যমে নিজের প্রতি আত্নবিশ্বাস তৈরি করা
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            The region's long beaches, surfed by gigantic waves, and the
-            breathtaking sunsets of summer and autumn add to its allure,
-            attracting admirers from across the globe. Glowing Chittagong, with
-            its rich history, culture, heroism, and courage, has always been a
-            cornerstone of political, sociocultural, and economic significance
-            in the history of independent Bangladesh.
+          <p className="my-2 text-lg text-gray-700 leading-relaxed">
+            📚 আমাদের কার্যক্রম সাপ্তাহিক ধর্মদেশনা ভিডিও থেরবাদ ও মহাযান
+            মতবাদের সমন্বয়ে আলোচনাসভা উৎসব, পূর্ণিমা ও উপোসথ দিবস উপলক্ষে বিশেষ
+            অনুষ্ঠান শিক্ষামূলক লেখা, প্রশ্নোত্তর পর্ব ও ধর্মীয় কুইজ প্রজ্ঞাবান
+            ভিক্ষুদের সাক্ষাৎকার বুদ্ধের দর্শনে মানবতা ধর্মকে প্রচার করা দেওয়া
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Greater Chittagong Association proudly celebrates this legacy while
-            serving as a bridge for immigrants in Saudi Arabia to connect,
-            support one another, and promote the heritage of their homeland.
+          <p className="my-2 text-lg text-gray-700 leading-relaxed">
+            🤝 আমাদের সাথে থাকুন আমাদের এই যাত্রা শুধু ধর্মচর্চা নয় – এটি
+            অন্তরের আলোকিত পথের খোঁজ। আপনি যদি শান্তি, সমবেদনা ও প্রজ্ঞার
+            অন্বেষক হয়ে থাকেন, তবে আপনি ঠিক জায়গাতেই এসেছেন। আমাদের ওয়েবসাইটের
+            মাধ্যমে আপনি ধর্মের সেবা নিতে পারবেন।
           </p>
         </div>
         <News />
