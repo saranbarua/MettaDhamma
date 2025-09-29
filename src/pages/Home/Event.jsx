@@ -14,7 +14,7 @@ const Event = () => {
     return <Loader />;
   }
   return (
-    <div className="mx-auto text-center">
+    <div className="mx-auto p-6 text-center">
       <h2 className="text-2xl font-bold my-8">আমাদের কার্যক্রম</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {slicedNewsData?.map((event, index) => (

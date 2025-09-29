@@ -21,13 +21,11 @@ export default function PhotoGallery() {
             key={index}
             className="overflow-hidden rounded-lg shadow-lg hover:scale-105 transform transition duration-300 cursor-pointer"
             onClick={() =>
-              setLightboxImage(
-                `https://chattogram-somiti.makeupcoders.com${src.image}`
-              )
+              setLightboxImage(`http://backend.mettadhamma.com${src.image}`)
             }
           >
             <img
-              src={`https://chattogram-somiti.makeupcoders.com${src.image}`}
+              src={`http://backend.mettadhamma.com${src.image}`}
               alt={`Gallery ${index}`}
               className="w-full h-60 "
               crossOrigin="anonymous"

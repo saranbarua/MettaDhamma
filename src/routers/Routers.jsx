@@ -3,7 +3,6 @@ import PrivateRouter from "./PrivateRouter";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Login from "../pages/Authentication/Login";
-import Profile from "../pages/Authentication/Profile";
 import Home from "../pages/Home/Home";
 import AllNews from "../pages/News/AllNews";
 import NewsDetails from "../pages/News/NewsDetails";
@@ -40,7 +39,6 @@ export default function Routers() {
         <Route path="*" element={<div>404: Page Not Found</div>} />
 
         <Route element={<PrivateRouter />}>
-          <Route path="/profile" element={<Profile />} />
           <Route path="/change-password" element={<ChangePassword />} />
         </Route>
       </Routes>

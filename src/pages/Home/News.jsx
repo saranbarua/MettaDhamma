@@ -14,7 +14,7 @@ const News = () => {
     return <Loader />;
   }
   return (
-    <div className=" mx-auto">
+    <div className="p-6 mx-auto">
       <h2 className="text-3xl font-bold text-center mb-6">সাম্প্রতিক সংবাদ</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {slicedNewsData?.map((news, index) => (
@@ -24,7 +24,7 @@ const News = () => {
             className="border rounded-lg shadow-md cursor-pointer overflow-hidden"
           >
             <img
-              src={`https://chattogram-somiti.makeupcoders.com${news.image}`}
+              src={`http://backend.mettadhamma.com${news.image}`}
               alt={news.title}
               className="w-full  h-60 object-cover"
               crossOrigin="anonymous"

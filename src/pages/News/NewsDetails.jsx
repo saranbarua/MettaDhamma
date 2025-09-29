@@ -25,10 +25,10 @@ const NewsDetails = () => {
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <img
-            src={`https://chattogram-somiti.makeupcoders.com${news.image}`}
+            src={`http://backend.mettadhamma.com${news.image}`}
             alt={news.title}
             crossOrigin="anonymous"
-            className="w-full object-contain"
+            className="w-full "
           />
 
           <div className="p-6 md:p-10">

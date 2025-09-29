@@ -25,7 +25,7 @@ const EventDetails = () => {
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <img
-            src={`https://chattogram-somiti.makeupcoders.com${event?.image}`}
+            src={`http://backend.mettadhamma.com${event?.image}`}
             alt={event.title}
             className="w-full object-contain"
             crossOrigin="anonymous"
