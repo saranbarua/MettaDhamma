@@ -233,7 +233,6 @@ export default function Home() {
               <div className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md transition hover:bg-white/10">
                 <div className="flex items-center gap-3">
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-emerald-300/40 bg-emerald-300/10">
-                    {/* scroll icon */}
                     <svg
                       viewBox="0 0 24 24"
                       className="h-5 w-5"
