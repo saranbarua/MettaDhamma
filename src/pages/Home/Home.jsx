@@ -26,6 +26,14 @@ export default function Home() {
       text: "In the seen, only the seen; in the heard, only the heard—thus the mind is freed.",
       source: "Bāhiya Sutta (Udāna 1.10)",
     },
+    {
+      text: "Better than a thousand hollow words is one word that brings peace.",
+      source: "Dhammapada 100",
+    },
+    {
+      text: "All conditioned things are impermanent—when one sees this with wisdom, one turns away from suffering.",
+      source: "Dhammapada 277",
+    },
   ];
   return (
     <div>
