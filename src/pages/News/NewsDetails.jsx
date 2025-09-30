@@ -3,7 +3,6 @@ import { useLocation, Link } from "react-router-dom";
 const NewsDetails = () => {
   const location = useLocation();
   const { news } = location.state || {};
-
   if (!news) {
     return (
       <div className="text-center mt-10 text-xl font-semibold">
@@ -38,7 +37,7 @@ const NewsDetails = () => {
 
             {/* Subheading */}
             <h2 className="text-lg md:text-xl font-semibold text-gray-600 mb-6">
-              {news?.subheading}
+              {news?.subHeading}
             </h2>
 
             {/* Event Info */}

@@ -38,7 +38,7 @@ const EventDetails = () => {
 
             {/* Subheading */}
             <h2 className="text-lg md:text-xl font-semibold text-gray-600 mb-6">
-              {event?.subheading}
+              {event?.subHeading}
             </h2>
 
             {/* Event Info */}

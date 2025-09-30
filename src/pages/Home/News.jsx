@@ -4,6 +4,7 @@ import Loader from "../../../components/Loader/Loader";
 
 const News = () => {
   const { data, isLoading } = useNews();
+
   const navigate = useNavigate();
   const slicedNewsData = data?.slice(0, 3);
 
