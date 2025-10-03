@@ -1,3 +1,4 @@
+import Blogs from "../Blogs/Blogs";
 import Event from "./Event";
 import News from "./News";
 import Slidder from "./Slidder";
@@ -70,7 +71,6 @@ export default function Home() {
           </p>
         </div>
         <News />
-        <Event />
         <section
           className="relative isolate w-full overflow-hidden bg-gradient-to-tr from-neutral-950 via-neutral-900 to-emerald-900/50"
           aria-label="Metta Dhamma welcome + stats + quotes"
@@ -180,7 +180,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Event />
 
+        <Blogs />
         {/* Elegant CTA / Practice Path */}
         <section
           className="relative isolate w-full overflow-hidden bg-gradient-to-br from-emerald-900/60 via-neutral-900/70 to-neutral-950"
