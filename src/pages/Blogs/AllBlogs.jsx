@@ -12,7 +12,7 @@ const excerptOf = (html, n = 160) => {
   return t.length > n ? t.slice(0, n).trim() + "…" : t;
 };
 
-export default function Blogs() {
+export default function AllBlogs() {
   const [posts, setPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -71,10 +71,7 @@ export default function Blogs() {
   }, []);
 
   const featured = useMemo(() => (posts.length ? posts[0] : null), [posts]);
-  const rest = useMemo(
-    () => (posts.length > 1 ? posts.slice(0, 3) : []),
-    [posts]
-  );
+  const rest = useMemo(() => (posts.length > 1 ? posts : []), [posts]);
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-tr from-neutral-950 via-neutral-900 to-emerald-950/20">
@@ -86,41 +83,18 @@ export default function Blogs() {
 
       <div className="relative mx-auto max-w-6xl px-6 py-12 sm:py-16">
         {/* Header */}
-        <header className="flex flex-col items-start justify-between mb-3 gap-6 sm:flex-row sm:items-end">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="tracking-[0.35em] text-xs font-semibold uppercase text-neutral-200/90 sm:text-sm">
-                Our Journal
-              </p>
-              <h1 className="mt-2 font-serif text-4xl leading-tight text-neutral-50 drop-shadow-sm sm:text-5xl">
-                Metta Dhamma Blog
-              </h1>
-              <p className="mt-3 max-w-2xl text-neutral-300">
-                Clear reflections on practice, Dhamma, and community—crafted for
-                a calmer, kinder everyday life.
-              </p>
-            </div>
-            <div>
-              <a
-                href="/all-blogs"
-                className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-6 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-emerald-700 hover:shadow-lg"
-              >
-                View all
-                <svg
-                  className="h-4 w-4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </a>
-            </div>
+        <header className="flex flex-col items-start justify-between gap-6 mb-2 sm:flex-row sm:items-end">
+          <div>
+            <p className="tracking-[0.35em] text-xs font-semibold uppercase text-neutral-200/90 sm:text-sm">
+              Our Journal
+            </p>
+            <h1 className="mt-2 font-serif text-4xl leading-tight text-neutral-50 drop-shadow-sm sm:text-5xl">
+              Metta Dhamma Blog
+            </h1>
+            <p className="mt-3 max-w-2xl text-neutral-300">
+              Clear reflections on practice, Dhamma, and community—crafted for a
+              calmer, kinder everyday life.
+            </p>
           </div>
         </header>
 

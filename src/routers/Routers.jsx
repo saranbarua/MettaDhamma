@@ -12,6 +12,7 @@ import Details from "../pages/ExecutiveCommittee/Details";
 import Blogs from "../pages/Blogs/Blogs";
 import BlogDetails from "../pages/Blogs/BlogDetails";
 import AllVideos from "../pages/YoutubeLink/AllVideos";
+import AllBlogs from "../pages/Blogs/AllBlogs";
 
 export default function Routers() {
   return (
@@ -29,6 +30,7 @@ export default function Routers() {
         <Route path="/events" element={<Events />} />
         <Route path="/events/:id" element={<EventDetails />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/All-blogs" element={<AllBlogs />} />
         <Route path="/blogs/:id" element={<BlogDetails />} />
         <Route path="/videos" element={<AllVideos />} />
         <Route path="/news" element={<AllNews />} />

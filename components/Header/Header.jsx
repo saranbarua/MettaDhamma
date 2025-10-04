@@ -35,7 +35,7 @@ const Header = () => {
               News
             </Link>
             <Link
-              to={"/blogs"}
+              to={"/All-blogs"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
             >
               All BLogs
