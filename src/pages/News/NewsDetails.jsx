@@ -27,7 +27,7 @@ const NewsDetails = () => {
             src={`https://backend.mettadhamma.com${news.image}`}
             alt={news.title}
             crossOrigin="anonymous"
-            className="w-full "
+            className="w-full object-contain max-h-[420px]"
           />
 
           <div className="p-6 md:p-10">

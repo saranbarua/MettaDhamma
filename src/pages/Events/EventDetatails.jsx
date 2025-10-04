@@ -3,7 +3,6 @@ import { useLocation, Link } from "react-router-dom";
 const EventDetails = () => {
   const location = useLocation();
   const { event } = location.state || {};
-
   if (!event) {
     return (
       <div className="text-center mt-10 text-xl font-semibold">
@@ -27,7 +26,7 @@ const EventDetails = () => {
           <img
             src={`https://backend.mettadhamma.com${event?.image}`}
             alt={event.title}
-            className="w-full object-contain"
+            className="w-full object-contain max-h-[420px]"
             crossOrigin="anonymous"
           />
 
