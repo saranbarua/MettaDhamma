@@ -67,7 +67,7 @@ function VideoPlayerModal({ open, onClose, videoId, title, description }) {
   );
 }
 
-export default function AllYoutubePage() {
+export default function AllVideos() {
   const [videos, setVideos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -124,7 +124,7 @@ export default function AllYoutubePage() {
   };
 
   return (
-    <main className=" p-4">
+    <main>
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-50 to-white border-b">
         <div className="max-w-7xl mx-auto px-4 py-10">
@@ -203,7 +203,7 @@ export default function AllYoutubePage() {
           <>
             <h3 className="text-lg font-semibold mb-3">Latest uploads</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {gridItems.slice(0, 3).map((row) => (
+              {gridItems?.map((row) => (
                 <article
                   key={row._id || row.videoId}
                   className="border rounded-xl overflow-hidden hover:shadow-md transition"

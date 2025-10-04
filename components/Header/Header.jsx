@@ -47,7 +47,7 @@ const Header = () => {
               Gallery
             </Link>
             <Link
-              to={"/youtubes"}
+              to={"/videos"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
             >
               Videos
