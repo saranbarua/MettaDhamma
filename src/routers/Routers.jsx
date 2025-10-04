@@ -31,7 +31,7 @@ export default function Routers() {
         <Route path="/events/:id" element={<EventDetails />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/All-blogs" element={<AllBlogs />} />
-        <Route path="/blogs/:id" element={<BlogDetails />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/videos" element={<AllVideos />} />
         <Route path="/news" element={<AllNews />} />
         <Route path="/news/:id" element={<NewsDetails />} />
