@@ -46,7 +46,7 @@ export default function Details() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {committeeData.map((committee, index) => {
-          const fullImageUrl = `http://backend.mettadhamma.com${committee.image}`;
+          const fullImageUrl = `https://backend.mettadhamma.com${committee.image}`;
           return (
             <div
               key={index}
