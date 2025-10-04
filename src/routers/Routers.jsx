@@ -11,6 +11,7 @@ import ExecutiveCommittee from "../pages/ExecutiveCommittee/ExecutiveCommittee";
 import Details from "../pages/ExecutiveCommittee/Details";
 import Blogs from "../pages/Blogs/Blogs";
 import BlogDetails from "../pages/Blogs/BlogDetails";
+import AllYoutubePage from "../pages/YoutubeLink/AllYoutubePage";
 
 export default function Routers() {
   return (
@@ -27,8 +28,9 @@ export default function Routers() {
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/:id" element={<EventDetails />} />
-        <Route path="/blogs/:id" element={<Blogs />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<BlogDetails />} />
+        <Route path="/youtubes" element={<AllYoutubePage />} />
         <Route path="/news" element={<AllNews />} />
         <Route path="/news/:id" element={<NewsDetails />} />
         <Route path="/photo-gallery" element={<PhotoGallery />} />

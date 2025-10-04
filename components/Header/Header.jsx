@@ -35,10 +35,22 @@ const Header = () => {
               News
             </Link>
             <Link
+              to={"/blogs"}
+              className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
+            >
+              All BLogs
+            </Link>
+            <Link
               to={"/photo-gallery"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
             >
               Gallery
+            </Link>
+            <Link
+              to={"/youtubes"}
+              className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
+            >
+              Videos
             </Link>
             <Link
               to={"/executive-committee"}

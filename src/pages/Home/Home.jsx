@@ -1,4 +1,5 @@
 import Blogs from "../Blogs/Blogs";
+import AllYoutubePage from "../YoutubeLink/AllYoutubePage";
 import Event from "./Event";
 import News from "./News";
 import Slidder from "./Slidder";
@@ -183,6 +184,7 @@ export default function Home() {
         <Event />
 
         <Blogs />
+        <AllYoutubePage />
         {/* Elegant CTA / Practice Path */}
         <section
           className="relative isolate w-full overflow-hidden bg-gradient-to-br from-emerald-900/60 via-neutral-900/70 to-neutral-950"
