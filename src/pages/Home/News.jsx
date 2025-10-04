@@ -25,7 +25,7 @@ const News = () => {
             className="border rounded-lg shadow-md cursor-pointer overflow-hidden"
           >
             <img
-              src={`https://backend.mettadhamma.com${news.image}`}
+              src={`http://backend.mettadhamma.com${news.image}`}
               alt={news.title}
               className="w-full  h-60 object-cover"
               crossOrigin="anonymous"

@@ -23,7 +23,7 @@ const Events = () => {
             className="border rounded-lg cursor-pointer shadow-lg overflow-hidden"
           >
             <img
-              src={`https://backend.mettadhamma.com${event?.image}`}
+              src={`http://backend.mettadhamma.com${event?.image}`}
               alt={event.title}
               className="w-full h-60 object-cover"
               crossOrigin="anonymous"

@@ -19,7 +19,7 @@ const AllNews = () => {
       <h2 className="text-3xl font-bold mb-6 text-center">All News</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {data?.map((news) => {
-          const fullImageUrl = `https://backend.mettadhamma.com${news.image}`;
+          const fullImageUrl = `http://backend.mettadhamma.com${news.image}`;
           return (
             <div
               key={news.id}

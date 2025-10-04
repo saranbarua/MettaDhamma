@@ -24,7 +24,7 @@ const NewsDetails = () => {
 
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <img
-            src={`https://backend.mettadhamma.com${news.image}`}
+            src={`http://backend.mettadhamma.com${news.image}`}
             alt={news.title}
             crossOrigin="anonymous"
             className="w-full "
