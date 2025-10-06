@@ -25,7 +25,7 @@ const Events = () => {
             <img
               src={`https://backend.mettadhamma.com${event?.image}`}
               alt={event.title}
-              className="w-full h-60 object-cover"
+              className="w-full h-60 object-contain"
               crossOrigin="anonymous"
             />
             <div className="p-4">
