@@ -26,7 +26,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex gap-6 text-lg">
+          <nav className="hidden md:flex gap-6 text-lg font-serif">
             <Link
               to={"/events"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
@@ -80,7 +80,7 @@ const Header = () => {
 
         {/* Mobile Navigation Menu */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden bg-white shadow-md">
+          <nav className="md:hidden font-serif bg-white shadow-md">
             <ul className="flex flex-col space-y-4 px-4 py-4">
               <li>
                 <Link

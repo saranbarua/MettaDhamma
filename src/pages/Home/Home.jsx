@@ -41,7 +41,7 @@ export default function Home() {
     <div>
       <Slidder />
       <div className="container mx-auto ">
-        <h1 className="text-3xl px-6 font-bold text-green-700 mb-4">
+        <h1 className="text-3xl  px-6 font-bold text-green-700 mb-4">
           Welcome To Metta Dhamma
         </h1>
         <div className="px-6 mx-auto">
