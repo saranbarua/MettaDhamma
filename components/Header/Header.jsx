@@ -15,10 +15,15 @@ const Header = () => {
     <>
       <header className="bg-primary-light shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          {/* Logo */}
-          <Link to={"/"}>
-            <img src={images.logo} className="w-14 mx-auto" />
-          </Link>
+          <div className="flex items-center gap-4">
+            {/* Logo */}
+            <Link to={"/"}>
+              <img src={images.logo} className="w-12 mx-auto" />
+            </Link>
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 lg:text-4xl text-2xl font-extrabold tracking-wide drop-shadow-lg">
+              Mettha Dhamma
+            </h1>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-6 text-lg">
@@ -38,7 +43,7 @@ const Header = () => {
               to={"/All-blogs"}
               className="hover:text-[#2A3335] text-white font-medium cursor-pointer transition-colors duration-300"
             >
-              All BLogs
+              BLogs
             </Link>
             <Link
               to={"/photo-gallery"}
@@ -102,6 +107,33 @@ const Header = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Executive Committee
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/All-blogs"}
+                  className="text-gray-800 font-medium hover:text-[#2A3335] transition-colors duration-300"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  BLogs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/news"}
+                  className="text-gray-800 font-medium hover:text-[#2A3335] transition-colors duration-300"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  News
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/videos"}
+                  className="text-gray-800 font-medium hover:text-[#2A3335] transition-colors duration-300"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Videos
                 </Link>
               </li>
             </ul>
