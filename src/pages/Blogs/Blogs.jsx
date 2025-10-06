@@ -78,12 +78,6 @@ export default function Blogs() {
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-tr from-neutral-950 via-neutral-900 to-emerald-950/20">
-      {/* Top decoration haze */}
-      <div className="pointer-events-none absolute inset-0 opacity-60 [mask-image:radial-gradient(70%_60%_at_50%_40%,black,transparent)]">
-        <div className="absolute -left-24 -top-24 size-[36rem] rounded-full bg-emerald-500/10 blur-3xl" />
-        <div className="absolute -right-16 top-20 size-[28rem] rounded-full bg-emerald-300/10 blur-3xl" />
-      </div>
-
       <div className="relative mx-auto max-w-6xl px-6 py-12 sm:py-16">
         <header className="flex flex-col items-start justify-between mb-3 gap-6 sm:flex-row sm:items-end">
           <div className="flex items-center justify-between">
