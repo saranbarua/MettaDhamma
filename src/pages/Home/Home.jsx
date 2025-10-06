@@ -76,16 +76,13 @@ export default function Home() {
           className="relative isolate w-full overflow-hidden bg-gradient-to-tr from-neutral-950 via-neutral-900 to-emerald-900/50"
           aria-label="Metta Dhamma welcome + stats + quotes"
         >
-          {/* soft pattern haze */}
           <div className="pointer-events-none absolute inset-0 opacity-60 [mask-image:radial-gradient(70%_60%_at_50%_40%,black,transparent)]">
             <div className="absolute -left-24 -top-24 size-[36rem] rounded-full bg-emerald-500/10 blur-3xl" />
             <div className="absolute -right-16 top-20 size-[28rem] rounded-full bg-emerald-300/10 blur-3xl" />
           </div>
 
-          {/* delicate inner vignette */}
           <div className="pointer-events-none absolute inset-0 ring-1 ring-black/5 [box-shadow:inset_0_0_140px_50px_rgba(0,0,0,0.35)]" />
 
-          {/* Header */}
           <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-20 md:py-24 lg:py-28">
             <p className="tracking-[0.35em] text-xs font-semibold uppercase text-neutral-200/90 sm:text-sm">
               Welcome to our
@@ -116,7 +113,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* By the numbers */}
           <div className="relative mx-auto max-w-6xl px-6 pb-12 md:pb-16">
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
               {STATS.map((s) => (
@@ -136,7 +132,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Quotes */}
           <div className="relative mx-auto max-w-6xl px-6 pb-20">
             <h2 className="mb-6 font-serif text-2xl text-neutral-50 sm:text-3xl">
               Words to sit with
@@ -148,7 +143,6 @@ export default function Home() {
                   key={i}
                   className="relative rounded-2xl border border-white/10 bg-white/5 p-6 leading-relaxed text-neutral-100/95 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] backdrop-blur-md"
                 >
-                  {/* ornament */}
                   <svg
                     aria-hidden="true"
                     className="absolute -top-3 -left-3 h-10 w-10 opacity-30"
@@ -168,7 +162,6 @@ export default function Home() {
                 </figure>
               ))}
 
-              {/* Wide card for emphasis */}
               <figure className="relative col-span-full rounded-2xl border border-white/10 bg-gradient-to-r from-emerald-500/10 to-emerald-300/10 p-7 backdrop-blur-md lg:col-span-3">
                 <blockquote className="font-serif text-xl text-emerald-100 sm:text-2xl">
                   “When the mind is steady and kind, the world reveals its quiet

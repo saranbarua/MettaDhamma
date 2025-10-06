@@ -85,7 +85,6 @@ export default function Blogs() {
       </div>
 
       <div className="relative mx-auto max-w-6xl px-6 py-12 sm:py-16">
-        {/* Header */}
         <header className="flex flex-col items-start justify-between mb-3 gap-6 sm:flex-row sm:items-end">
           <div className="flex items-center justify-between">
             <div>
